@@ -1,0 +1,178 @@
+/* CSS */
+
+body {
+    padding: none;
+      margin-bottom: 0px;
+    height: 100%;
+    background-color: black;
+}
+
+html {
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, .8); 
+    margin: 160px auto 0;
+    position: relative;
+    left: 160px;    
+}
+
+
+#page_wrapper {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+}
+
+iframe {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+
+.about {
+    color: snow;
+    background-color: rgba(10, 10, 10, 0.8);
+    position: relative;
+    left: 150px;
+    top: -200px;
+}
+
+/***********
+IMGS
+************/
+
+
+img[src*='colbert.png'] {
+    margin-left: 800px;
+    position: relative;
+    top: 140px;
+    left: 180px;
+    z-index: -20;
+    -ms-transform: scaleX(-1) rotate(-15deg) ; /* IE 9 */
+    -webkit-transform: scaleX(-1) rotate(-15deg); /* Chrome, Safari, Opera */
+    -moz-transform: scaleX(-1) rotate(-15deg);
+    -o-transform: scaleX(-1) rotate(-15deg);
+    transform: scaleX(-1) rotate(-15deg);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    z-index: -1;
+}
+
+img[src*='colbert_2.png'] {
+   position: relative;
+    lefT: -350px;
+    top: -300px;
+    -moz-transform: caleX(-1) rotate(20deg);
+    -o-transform: caleX(-1) rotate(20deg);
+    -webkit-transform: caleX(-1) rotate(20deg);
+    transform: scaleX(-1) rotate(20deg);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    z-index: -1;
+    height: 330px;
+    width: 330px;
+}
+
+img[src*='flag_map.png'] {
+  margin-top: -800px;
+    position: absolute;
+    left: -50px;
+    top: 680px; 
+    z-index: -4;
+    height: 1100px;
+    width: 1400px;
+}
+
+
+img[src*='eagle.'] {
+   margin-top: -400px;
+     margin-right: -300px;
+    position: relative;
+    top: 150px; 
+    left: 620px;
+    z-index: -1;
+    -moz-transform: caleX(-1) rotate(20deg);
+    -o-transform: caleX(-1) rotate(20deg);
+    -webkit-transform: caleX(-1) rotate(20deg);
+    transform: scaleX(-1) rotate(20deg);
+}
+img[src*='eagle_2'] {
+   margin-top: -400px;
+    margin-left: -200px;
+    position: relative;
+    left: -300px;
+    top: 150px;
+    z-index: -1
+}
+
+
+
+#run {
+    background-color: snow;
+    border: 2px solid black;
+    width: 250px;
+    height: 50px;
+    margin-left: 340px;
+    color: rgba(1, 2, 140, 1);
+    font-size: 24px;
+    position: relative;
+    top: -200px;
+}
+
+
+/**************
+MEDIA QUIRES
+*************/
+
+@media (max-width: 500px) {
+    img {
+        display: none;
+    }
+    
+    #page_wrapper {
+        text-align: center;
+    }
+  
+    #run {
+        position: relative;
+        top: 100px;
+        left: -245px;
+    }
+    iframe {
+        width: 400px;
+        position: absolute;
+        left: 0px;
+        margin: 0 auto;
+        position: relative;
+        top: 0px;
+    }
+    
+    body {
+        background-image: url(img/flag_3.jpg);
+        background-size: auto;
+        margin: 0 auto;
+    }
+    #page_wrapper {
+        width: 100%;
+    }
+    h1 {
+        left: 20px;
+    }
+    #aboutDiv {
+         margin: 0 auto;
+    }
+    .about {
+        position: relative;
+        top: 100px;
+        left: -01px;
+    }
+    
+   
+}
+
