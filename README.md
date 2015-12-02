@@ -1,5 +1,9 @@
 # Colbert-button
 Watch random Stephen Colbert videos
 
-A lot of links are dead. I really don't want to maintain this project to see watch links are still good.
-Just press the button again. 
+A lot of links are dead. 
+
+TODO: Use Youtube API or scrape to get videos instead of hardcoding array
+TODO: check video to make sure it works before displaying video
+
+Not coming back to this project
